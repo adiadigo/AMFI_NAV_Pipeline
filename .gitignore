@@ -1,0 +1,30 @@
+# secrets
+.env
+*.env
+*.pem
+*.p8
+*.key
+*credentials*.csv
+profiles.yml
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# data and packaging
+NAVAll*.txt
+!extractor/sample/*.txt
+*.zip
+
+# future stages (dbt, Airflow)
+target/
+dbt_packages/
+logs/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+
